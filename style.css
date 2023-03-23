@@ -1,4 +1,11 @@
 html,
+head {
+  margin: 200px;
+  padding: 0;
+}
+
+
+html,
 body {
   margin: 200px;
   padding: 0;
