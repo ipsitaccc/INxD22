@@ -1,0 +1,36 @@
+<head>
+    Hello
+</head>
+
+<body>
+    <div style="width: 100%; height: 100%; position: relative; background: white">
+        <img style="width: 422.30px; left: 723.33px; top: 75.73px; position: absolute" src="Untitled_Artwork copy.png" />
+        <div style="width: 467.58px; height: 60.05px; left: 107.94px; top: 507.88px; position: absolute; background: #575656; border-radius: 36.42px"></div>
+        <div style="left: 236.86px; top: 526.58px; position: absolute; color: white; font-size: 19.69px; font-family: Inter; font-weight: 400; word-wrap: break-word">Go to Page</div>
+        <div style="width: 430.17px; height: 291.38px; left: 114.83px; top: 163.34px; position: absolute; color: black; font-size: 23.62px; font-family: Inter; font-weight: 400; word-wrap: break-word">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
+        <div style="left: 104px; top: 59px; position: absolute; color: black; font-size: 64.42px; font-family: Inter; font-weight: 400; word-wrap: break-word">Bartlett Pearl</div>
+    </div>
+    <h2>The Imitation Game</h2>
+    <iframe width="100%" height="197" frameborder="0"
+    src="https://observablehq.com/embed/fe9efb37b369ef2f@39?cells=Staticversion"></iframe>
+
+    <h2>Select</h2>
+    <iframe width="100%" height="240" frameborder="0"
+  src="https://observablehq.com/embed/fe9efb37b369ef2f@40?cells=viewof+select%2CViz2"></iframe>
+
+  <h2>Runtime with JS</h2>
+  <div id="observablehq-viewof-select-795f3d8a"></div>
+<div id="observablehq-Viz2-795f3d8a"></div>
+<!-- <p>Credit: <a href="https://observablehq.com/d/fe9efb37b369ef2f@40">Based on a True True Story? by Ipsita&#039;s Workspace</a></p> -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/d/fe9efb37b369ef2f@40.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "viewof select") return new Inspector(document.querySelector("#observablehq-viewof-select-795f3d8a"));
+  if (name === "Viz2") return new Inspector(document.querySelector("#observablehq-Viz2-795f3d8a"));
+  return ["df2_imitation_game"].includes(name);
+});
+</script>
+</body>

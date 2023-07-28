@@ -1,0 +1,51 @@
+.card{
+    width: 78.125rem;
+    height: 39.0625rem;
+    overflow: hidden;
+    background: #FFF;
+}
+
+.card-button{
+    width: 29.22363rem;
+    height: 3.75294rem;
+    border-radius: 2.27638rem;
+    background: #575656;
+    flex-shrink: 0;
+}
+
+.card-button-title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.2305rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-image{
+    width: 26.39356rem;
+    height: 30.76175rem;
+    background: url(<path-to-image>), lightgray -160.396px 0px / 137.982% 100% no-repeat;
+    flex-shrink: 0;
+}
+
+.card-text{
+    width: 26.88575rem;
+    height: 18.21094rem;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 1.47656rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-title{
+    color: #000;
+    font-family: Inter;
+    font-size: 4.02619rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
